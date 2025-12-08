@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     75454,       1476]
-NotebookOptionsPosition[     74744,       1455]
-NotebookOutlinePosition[     75137,       1471]
-CellTagsIndexPosition[     75094,       1468]
+NotebookDataLength[     75813,       1484]
+NotebookOptionsPosition[     75103,       1463]
+NotebookOutlinePosition[     75496,       1479]
+CellTagsIndexPosition[     75453,       1476]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -100,6 +100,14 @@ Cell[BoxData[
        RowBox[{"{", 
         RowBox[{"t", ",", "0", ",", 
          RowBox[{"2", "Pi"}]}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"colors", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       TemplateBox[<|"color" -> RGBColor[0.394, 0.394, 0.394]|>,
+        "RGBColorSwatchTemplate"], ",", 
+       TemplateBox[<|"color" -> RGBColor[0.668, 0.668, 0.668]|>,
+        "RGBColorSwatchTemplate"]}], "}"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"Animate", "[", 
     RowBox[{
      RowBox[{"Show", "[", 
@@ -128,8 +136,8 @@ Cell[BoxData[
        RowBox[{"Graphics", "[", 
         RowBox[{"{", 
          RowBox[{
-          TemplateBox[<|"color" -> RGBColor[0.394, 0.394, 0.394]|>,
-           "RGBColorSwatchTemplate"], ",", 
+          RowBox[{"colors", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], ",", 
           RowBox[{"PointSize", "[", ".1", "]"}], ",", 
           RowBox[{"Point", "[", 
            RowBox[{"{", 
@@ -142,8 +150,8 @@ Cell[BoxData[
        RowBox[{"Graphics", "[", 
         RowBox[{"{", 
          RowBox[{
-          TemplateBox[<|"color" -> RGBColor[0.668, 0.668, 0.668]|>,
-           "RGBColorSwatchTemplate"], ",", 
+          RowBox[{"colors", "[", 
+           RowBox[{"[", "2", "]"}], "]"}], ",", 
           RowBox[{"PointSize", "[", ".1", "]"}], ",", 
           RowBox[{"Point", "[", 
            RowBox[{"{", 
@@ -199,14 +207,14 @@ Cell[BoxData[
    3.973915578681117*^9, 3.9739155913685083`*^9}, {3.9739569552753353`*^9, 
    3.973956964684147*^9}, {3.974149180087817*^9, 3.974149320107588*^9}, {
    3.97414935337738*^9, 3.974149383754593*^9}, {3.974149576710428*^9, 
-   3.974149611744802*^9}},
+   3.974149611744802*^9}, {3.9741497542273493`*^9, 3.9741497846568413`*^9}},
  CellLabel->
-  "In[151]:=",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
+  "In[162]:=",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 5.201854705810547, Typeset`show$$ = 
+   DynamicModuleBox[{$CellContext`t$$ = 18.009862899780273`, Typeset`show$$ = 
     True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
@@ -234,7 +242,7 @@ Cell[BoxData[
             $CellContext`s2[$CellContext`t$$]]}}, PlotStyle -> {
            Thickness[0.008], Black}], 
         Graphics[{
-          RGBColor[0.394, 0.394, 0.394], 
+          Part[$CellContext`colors, 1], 
           PointSize[0.1], 
           Point[{
             Cos[
@@ -242,7 +250,7 @@ Cell[BoxData[
             Sin[
              $CellContext`s1[$CellContext`t$$]]}]}], 
         Graphics[{
-          RGBColor[0.668, 0.668, 0.668], 
+          Part[$CellContext`colors, 2], 
           PointSize[0.1], 
           Point[{
             Cos[
@@ -271,9 +279,9 @@ Cell[BoxData[
  CellChangeTimes->{
   3.974149168154261*^9, 3.9741492414535427`*^9, 3.9741493543905907`*^9, 
    3.974149429072825*^9, 3.97414950075461*^9, 3.974149568450478*^9, {
-   3.974149608845254*^9, 3.97414961224084*^9}},
+   3.974149608845254*^9, 3.97414961224084*^9}, 3.974149785191136*^9},
  CellLabel->
-  "Out[160]=",ExpressionUUID->"899af70f-ea5f-4e59-9a6f-6ab44c7b0ce7"]
+  "Out[172]=",ExpressionUUID->"82061b51-fd90-41d2-b007-3aca19500ab8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1471,12 +1479,12 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[576, 22, 8200, 181, 397, "Input",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
-Cell[8779, 205, 3110, 70, 455, "Output",ExpressionUUID->"899af70f-ea5f-4e59-9a6f-6ab44c7b0ce7"]
+Cell[576, 22, 8537, 189, 437, "Input",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
+Cell[9116, 213, 3132, 70, 455, "Output",ExpressionUUID->"82061b51-fd90-41d2-b007-3aca19500ab8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11926, 280, 820, 20, 29, "Input",ExpressionUUID->"36b7abf7-a6c9-4e2e-8125-2a87bbbfd8ed"],
-Cell[12749, 302, 61979, 1150, 235, "Output",ExpressionUUID->"28b6ac8f-81ea-4463-b378-ee5e084357fe"]
+Cell[12285, 288, 820, 20, 29, "Input",ExpressionUUID->"36b7abf7-a6c9-4e2e-8125-2a87bbbfd8ed"],
+Cell[13108, 310, 61979, 1150, 235, "Output",ExpressionUUID->"28b6ac8f-81ea-4463-b378-ee5e084357fe"]
 }, Open  ]]
 }
 ]
