@@ -10,16 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     75813,       1484]
-NotebookOptionsPosition[     75103,       1463]
-NotebookOutlinePosition[     75496,       1479]
-CellTagsIndexPosition[     75453,       1476]
+NotebookDataLength[     72512,       1406]
+NotebookOptionsPosition[     71934,       1388]
+NotebookOutlinePosition[     72327,       1404]
+CellTagsIndexPosition[     72284,       1401]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", 
@@ -210,79 +208,6 @@ Cell[BoxData[
    3.974149611744802*^9}, {3.9741497542273493`*^9, 3.9741497846568413`*^9}},
  CellLabel->
   "In[162]:=",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`t$$ = 13.509870529174805`, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`t$$], 0, 20, ControlType -> Animator}}, 
-    Typeset`size$$ = {360., {177.13402017376086`, 182.86595376751086`}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
-    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, "Variables" :> {$CellContext`t$$ = 0}, 
-      "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
-        Typeset`keyframeList$$}, "Body" :> Show[$CellContext`hoop, 
-        ListLinePlot[{{
-           Cos[
-            $CellContext`s1[$CellContext`t$$]], 
-           Sin[
-            $CellContext`s1[$CellContext`t$$]]}, {
-           Cos[
-            $CellContext`s2[$CellContext`t$$]], 
-           Sin[
-            $CellContext`s2[$CellContext`t$$]]}}, PlotStyle -> {
-           Thickness[0.008], Black}], 
-        Graphics[{
-          Part[$CellContext`colors, 1], 
-          PointSize[0.1], 
-          Point[{
-            Cos[
-             $CellContext`s1[$CellContext`t$$]], 
-            Sin[
-             $CellContext`s1[$CellContext`t$$]]}]}], 
-        Graphics[{
-          Part[$CellContext`colors, 2], 
-          PointSize[0.1], 
-          Point[{
-            Cos[
-             $CellContext`s2[$CellContext`t$$]], 
-            Sin[
-             $CellContext`s2[$CellContext`t$$]]}]}]], 
-      "Specifications" :> {{$CellContext`t$$, 0, 20, 
-         AppearanceElements -> {
-          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
-           "DirectionButton"}}}, 
-      "Options" :> {
-       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
-        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
-        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{409.1, {216.63402017376086`, 222.36595376751086`}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Animate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{
-  3.974149168154261*^9, 3.9741492414535427`*^9, 3.9741493543905907`*^9, 
-   3.974149429072825*^9, 3.97414950075461*^9, 3.974149568450478*^9, {
-   3.974149608845254*^9, 3.97414961224084*^9}, 3.974149785191136*^9},
- CellLabel->
-  "Out[172]=",ExpressionUUID->"82061b51-fd90-41d2-b007-3aca19500ab8"]
-}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1478,13 +1403,10 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[554, 20, 8537, 189, 437, "Input",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
 Cell[CellGroupData[{
-Cell[576, 22, 8537, 189, 437, "Input",ExpressionUUID->"d83948d6-8735-4ece-88ec-367cf083a900"],
-Cell[9116, 213, 3132, 70, 455, "Output",ExpressionUUID->"82061b51-fd90-41d2-b007-3aca19500ab8"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[12285, 288, 820, 20, 29, "Input",ExpressionUUID->"36b7abf7-a6c9-4e2e-8125-2a87bbbfd8ed"],
-Cell[13108, 310, 61979, 1150, 235, "Output",ExpressionUUID->"28b6ac8f-81ea-4463-b378-ee5e084357fe"]
+Cell[9116, 213, 820, 20, 29, "Input",ExpressionUUID->"36b7abf7-a6c9-4e2e-8125-2a87bbbfd8ed"],
+Cell[9939, 235, 61979, 1150, 235, "Output",ExpressionUUID->"28b6ac8f-81ea-4463-b378-ee5e084357fe"]
 }, Open  ]]
 }
 ]
